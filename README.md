@@ -8,7 +8,7 @@
   - การจำลองการดึงข้อมูลจากการอ่านกระดาษข้อสอบและการคีย์ข้อมูล: ตัว input คิดไม่ออกครับ... ส่วนการคีย์ข้อมูล จะทำเป็น python webserver + pure website ตอน output จะ out ไปที่ database folder
 - Frontend:
   - Framework: ไม่มีครับ เป็น pure web
-- API จะต้อง compatible กับระบบจริง
+- frontend API จะต้อง compatible กับระบบจริง
   - สำหรับกรณีของ รหัสผ่านที่ถูกแก้นั้น... ให้คำนวนแบบ dynamic แต่จะมีการทำ cache ไว้(?)
   - กรณีของ token ข้อมูล ให้แนบผ่าน query parameter
   - ทำให้หากตัดพวก query param ออกไป... ตัว frontend api request จะ compatible กับระบบจริง ~100%
@@ -18,7 +18,7 @@
   - ปล: ref เพลงจากที่ self-host ที่[เว็บส่วนตัว](https://npchaonay.org/files/%E0%B9%80%E0%B8%9E%E0%B8%A5%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%9A%E0%B8%B1%E0%B8%99-%E0%B8%9A%E0%B8%94-%E0%B8%AA%E0%B8%AD%E0%B8%87/?fromNPcRef=github&whatGithub=NPchaonay_bd2-scoresys-c2o) ... เอามาแปลงแล้วใช้กับระบบที่ path ที่กำหนด (ไม่ได้อัปไว้ในนี้)
 - Security Concern:
   - มีระบบกัน bruteforce
-  - token ข้อมูล ทำให้ไม่สามารถเข้าถึงข้อมูลได้หลังผ่านไปสักระยะ แม้รู้ลิงก์
+  - ต้องแนบ token เพื่อรับข้อมูล และมีการ expire token ทำให้ไม่สามารถเข้าถึงข้อมูลได้หลังผ่านไปสักระยะแม้รู้ลิงก์
   - สามารถเปลี่ยนรหัสได้ จากระบบหลังบ้าน (ไปแก้เอาที่ไฟล์ใน database folder.... ระบบนี้ไม่ได้จำลองระบบบัญชีนักเรียน55)
   - 
 ## หมายเหตุ
