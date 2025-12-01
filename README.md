@@ -15,7 +15,7 @@
 - gimmick:
   - ถ้าได้คะแนน 100% เต็ม จะเล่นท่อนหนึ่งของเพลงประจำสถาบันลำดับที่ 1 "มาร์ชบดินทรเดชาสอง" เป็นช่วงท้าย ๆ ของท่อน "บรรเลงต้นเพลง"
   - ถ้าได้ <50% จะเล่นท่อนหนึ่งของเพลงประจำสถาบันลำดับที่ 14 "ลาแล้วบดินทรสอง" เป็นช่วงต้น ๆ ของท่อนแรกของเนื้อร้อง
-  - ปล: เพลง self-host ที่[เว็บส่วนตัว](https://npchaonay.org/files/%E0%B9%80%E0%B8%9E%E0%B8%A5%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%9A%E0%B8%B1%E0%B8%99-%E0%B8%9A%E0%B8%94-%E0%B8%AA%E0%B8%AD%E0%B8%87/?fromNPcRef=github&whatGithub=NPchaonay_bd2-scoresys-c2o)
+  - ปล: ref เพลงจากที่ self-host ที่[เว็บส่วนตัว](https://npchaonay.org/files/%E0%B9%80%E0%B8%9E%E0%B8%A5%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%9A%E0%B8%B1%E0%B8%99-%E0%B8%9A%E0%B8%94-%E0%B8%AA%E0%B8%AD%E0%B8%87/?fromNPcRef=github&whatGithub=NPchaonay_bd2-scoresys-c2o) ... เอามาแปลงแล้วใช้กับระบบที่ path ที่กำหนด (ไม่ได้อัปไว้ในนี้)
 - Security Concern:
   - มีระบบกัน bruteforce
   - token ข้อมูล ทำให้ไม่สามารถเข้าถึงข้อมูลได้หลังผ่านไปสักระยะ แม้รู้ลิงก์
